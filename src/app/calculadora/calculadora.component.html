@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="form-box">
+    <form #frm="ngForm" (ngSubmit)="calcularResultado()">
+      <h2>Calculadora</h2>
+      <label for="peso">Peso</label>
+      <input type="number" name="peso" id="peso" [(ngModel)]="peso" />
+
+      <label for="altura">Altura</label>
+      <input type="number" name="altura" id="altura" [(ngModel)]="altura" />
+
+      <button type="submit">Calcular IMC</button>
+    </form>
+
+    <div class="result-show" *ngIf="imc">
+      <p>Resultado abaixo:</p>
+    </div>
+
+    @if(imc){
+    <div class="result-show">
+      <p>
+        Resultado: <span id="resultado"> {{ imc }} </span>
+      </p>
+    </div>
+    } @else {
+    <div class="result-show">
+      <p>Resultado aparecerá aqui.</p>
+    </div>
+
+    }
+  </div>
+  
+</div>
