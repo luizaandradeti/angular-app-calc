@@ -1,6 +1,6 @@
 # Calculadora
 
--[ [https://stackblitz.com/~/github.com/luizaandradeti/angular-app-calculadora](https://stackblitz.com/~/github.com/luizaandradeti/angular-app-calculadora)](https://stackblitz.com/~/github.com/luizaandradeti/angular-app-calc)
+https://stackblitz.com/~/github.com/luizaandradeti/angular-app-calc
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
 
